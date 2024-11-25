@@ -1,6 +1,6 @@
 Wellness Planner API
 
-Progetton TEST Wellness Planner API, un set di API RESTful per la gestione di attività e utenti, sviluppato in Java con Spring Boot.
+Progetto TEST Wellness Planner API, un set di API RESTful per la gestione di attività e utenti, sviluppato in Java con Spring Boot.
 
 Funzionalità Principali
 
