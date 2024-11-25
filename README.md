@@ -18,9 +18,9 @@ Visualizzazione delle attività a cui l'utente è iscritto.
 
 
 Tecnologie Utilizzate
-Linguaggio: Java 17
+Linguaggio: Java 21
 Framework: Spring Boot 3.x (Web, Data JPA, Security)
-Database: H2 Database (ambiente di sviluppo)
+Database: Postgresql (ambiente di sviluppo)
 Autenticazione: JWT (JSON Web Tokens)
 
 Build Tool: Maven
