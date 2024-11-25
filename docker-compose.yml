@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:17
+    container_name: postgres-container
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: wellness_user
+      POSTGRES_PASSWORD: changeme
+      POSTGRES_DB: wellness_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Directory dove vado a fare la persistenza
+
+volumes:
+  postgres_data:
+    driver: local
